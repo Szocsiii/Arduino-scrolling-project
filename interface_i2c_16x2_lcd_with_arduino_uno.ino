@@ -18,7 +18,7 @@ void setup()
 void loop()
 {
   lcd.setCursor(0,0);
-
+  lcd.print("  Proba 1.0");
     
 
   sensorValue = analogRead(A0);
