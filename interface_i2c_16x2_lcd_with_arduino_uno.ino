@@ -12,13 +12,13 @@ void setup()
 	lcd.backlight();
 	lcd.clear();
 	lcd.setCursor(4,0);
-	lcd.print("Hackster");
+	
 }
 
 void loop()
 {
   lcd.setCursor(0,0);
-lcd.print("  DIY Inventor");
+
     
 
   sensorValue = analogRead(A0);
